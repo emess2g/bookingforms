@@ -1,0 +1,41 @@
+.container{
+    height: 35rem;
+    width: 100%;
+    border: 1px solid #0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid red;
+    gap: 1rem;
+}
+
+.child{
+    border: 1px solid orange;
+    background-color: orangered;
+    width: 20%;
+    height: 20%;
+}
+
+.child:hover,
+.child:nth-child(1)
+{
+    width: 10%;
+    transition:  1s;
+}
+
+.child:nth-child(1):hover{
+    background-color: yellow;
+}
+
+.child:nth-child(2):hover{
+    background-color: green;
+}
+
+.child:nth-child(3):hover{
+    background-color: rgb(93, 0, 255);
+}
+
+.child:nth-child(4):hover{
+    background-color: rgb(238, 249, 238);
+}
